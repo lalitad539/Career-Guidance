@@ -1,0 +1,41 @@
+#Admin-login-form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  #Admin-login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #Admin-login-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  #Admin-login-form input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  #Admin-login-form button {
+    width: 100%;
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #Admin-login-form button:hover {
+    background-color: #3e8e41;
+  }
+  #Admin-login-form a {
+    text-decoration: none;
+    color: #4CAF50;
+  }
+ 

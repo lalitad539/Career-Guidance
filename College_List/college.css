@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    /* color: greenyellow; */
+/* background-color: rgb(236, 224, 203); */
+}
+.topnav {
+    overflow: hidden;
+    background-color: #716b39;
+    width: 100%;
+    height: 120px;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.li, select{
+  float: left;
+      background-color: #baee8f;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: center;
+    border-right:1px solid #bbb;
+    white-space: 10px;
+  }
+  
+  .accordion {
+  background-color: #769498;
+  color: #000000;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #4a536c; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+.body, input{
+  width: 50%;
+  height: 50px;
+  color: rgb(42, 40, 37);
+  font-size: 20px;
+  float: right;
+  
+}
+.header{
+  width: 100%;
+  height: 80px;
+  color: #04AA6D;
+  background-color: #e8b695;
+  word-spacing: 5px;
+  letter-spacing: 10px;
+  font-size: 25px;
+}
+.topnav h2 a{
+  position: absolute;
+  float: right;
+  color: greenyellow
+}
+.foot{
+  width: 100%;
+  height: 100px;
+  background-color: #bfe7ed;
+}
